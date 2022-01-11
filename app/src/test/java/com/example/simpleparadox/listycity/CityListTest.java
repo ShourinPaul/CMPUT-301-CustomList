@@ -80,8 +80,7 @@ class CityListTest {
             cityList.delete(city);
         });
 
-//        assertEquals(1, cityList.getCities().size());
-//        assertTrue(!cityList.getCities().contains(city));
+//       
     }
 
     @Test
@@ -94,13 +93,7 @@ class CityListTest {
         cityList.add(city);
         assertEquals(2, cityList.getCities().size());
         assertEquals(2, cityList.listsize());
-//        cityList.delete(city);
-//        assertThrows(IllegalArgumentException.class, () -> {
-//            cityList.delete(city);
-//        });
-
-//        assertEquals(1, cityList.getCities().size());
-//        assertTrue(!cityList.getCities().contains(city));
+//
     }
 
 
