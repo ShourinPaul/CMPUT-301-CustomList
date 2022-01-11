@@ -10,6 +10,7 @@ class CityListTest {
     private CityList mockCityList() {
         CityList cityList = new CityList();
         cityList.add(mockCity());
+        //
         return cityList;
     }
 
@@ -80,7 +81,7 @@ class CityListTest {
             cityList.delete(city);
         });
 
-//       
+//
     }
 
     @Test
