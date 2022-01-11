@@ -33,4 +33,22 @@ public class CityList {
         return list;
     }
 
+    /**
+     * This removes
+     * @param city
+     */
+    public void delete(City city){
+        if(!cities.contains(city)){
+            throw new IllegalArgumentException();
+        }
+        cities.remove(city);
+    }
+
+    /**
+     *
+     * @return
+     */
+    public int listsize(){
+        return cities.size();
+    }
 }
